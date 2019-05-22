@@ -1,0 +1,17 @@
+{
+    "name": "transformdemo",
+    "repository": "Private",
+    "scripts": {
+        "build": "ttsc"
+    },
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "typescript": "^3.4.5"
+    },
+    "devDependencies": {
+        "ttypescript": "^1.5.6",
+        "typescript-transform-paths": "^1.1.2"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "lib": ["es2017", "dom"],
+        "module": "commonjs",
+        "outDir": "dist/",
+        "paths": {
+            "me/*": ["src/*"]
+        },
+        "plugins": [
+            {
+                "transform": "typescript-transform-paths"
+            },
+            {
+                "transform": "typescript-transform-paths",
+                "afterDeclarations": true
+            }
+        ],
+        "target": "es5"
+    },
+    "exclude": ["dist", "node_modules"]
+}
